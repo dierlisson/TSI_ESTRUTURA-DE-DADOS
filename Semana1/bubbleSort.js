@@ -1,4 +1,4 @@
-function bubbleSort(vetor){
+function BubbleSort(vetor){
     var i, j, aux;
     for(i = 0; i < vetor.length; i++){
         for(j = 0; j < vetor.length - i - 1; j++){
@@ -11,5 +11,5 @@ function bubbleSort(vetor){
     }
 }
 var vetor= [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-bubbleSort(vetor);
+BubbleSort(vetor);
 console.log(vetor);

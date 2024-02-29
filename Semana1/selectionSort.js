@@ -1,4 +1,4 @@
-function selectionSort(vetor){
+function SelectionSort(vetor){
     let i, j, aux, minIndex;
     for(i = 0; i < vetor.length - 1; i++){
         minIndex = i;
@@ -13,5 +13,5 @@ function selectionSort(vetor){
     }
 }
 let vetor=[10,9,8,7,6,5,4,3,2,1];
-selectionSort(vetor);
+SelectionSort(vetor);
 console.log(vetor);
